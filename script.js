@@ -12,13 +12,7 @@ bookingForm.addEventListener("submit", function(event) {
 
   // You can perform additional validation here
 
-  const bookingData = {
-    name: name,
-    email: email,
-    date: date,
-    time: time,
-    partySize: partySize
-  };
+
 
   // Here you would typically send the data to the server to handle the booking
   // and store it in the database. For this example, we'll simply display the data.
